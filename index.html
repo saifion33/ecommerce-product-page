@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css">
+  <title>E-commerce product page</title>
+
+</head>
+
+<body>
+
+  <!-- Collections
+  Men
+  Women
+  About
+  Contact
+
+  Sneaker Company
+
+  Fall Limited Edition Sneakers
+
+  These low-profile sneakers are your perfect casual wear companion. Featuring a 
+  durable rubber outer sole, they’ll withstand everything the weather can offer.
+
+  $125.00
+  50%
+  $250.00
+
+  0
+  Add to cart -->
+  <header>
+    <nav>
+      <img id="menu-icon" src="./images/icon-menu.svg" alt="menu icon">
+      <div class="logo-container">
+        <img src="./images/logo.svg" alt="logo image">
+      </div>
+      <ul id="mobile-menu">
+        <img id="menu-close-icon" src="./images/icon-close-black.svg" alt="close icon">
+        <li>Collections</li>
+        <li>Men</li>
+        <li>Women</li>
+        <li>About</li>
+        <li>Contact</li>
+      </ul>
+      <div class="cart-and-avatar-container">
+        <div>
+          <img id="cart-icon" src="./images/icon-cart.svg" alt="cart icon">
+          <span id="item-count-display">0</span>
+        </div>
+        <img id="avatar-image" src="./images/image-avatar.png" alt="image-avatar">
+      </div>
+      <!-- item cart  -->
+      <div id="cart-container">
+        <h2>cart</h2>
+        <div id="cart">
+          <h1>Your cart is empty</h1>
+        </div>
+      </div>
+      <!-- cart end -->
+    </nav>
+  </header>
+  <!-- ###################### light box ################################# -->
+  <div class="light-box" id="light-box">
+    
+  </div>
+  <!-- ###################### light box end ################################# -->
+  <main>
+    
+    <div class="product-image-container">
+      <div class="main-image-container">
+        <img id="mobile-previous-icon" class="icons" src="./images/icon-previous.svg" alt="previous icon">
+        <img id="main-image" src="./images/image-product-1.jpg" alt="product image">
+        <img id="mobile-next-icon" class="icons" src="./images/icon-next.svg" alt="next icon">
+      </div>
+      <div class="thumbnail-container">
+        <div class="thumbnail" >
+          <img class="thumbnail-image active-image" id="0" src="./images/image-product-1-thumbnail.jpg" alt="product image 1 thumbnail">
+        </div>
+        <div class="thumbnail">
+          <img class="thumbnail-image"  id="1" src="./images/image-product-2-thumbnail.jpg" alt="product image 2 thumbnail">
+        </div>
+        <div class="thumbnail">
+          <img class="thumbnail-image"  id="2" src="./images/image-product-3-thumbnail.jpg" alt="product image 3 thumbnail">
+        </div>
+        <div class="thumbnail" >
+          <img class="thumbnail-image"  id="3" src="./images/image-product-4-thumbnail.jpg" alt="product image 4 thumbnail">
+        </div>
+      </div>
+    </div>
+    <div class="product-details-container">
+      <div class="about-product-container">
+        <p id="slogan">SNEAKER COMPANY</p>
+        <h1>Fall Limited Edition Sneakers</h1>
+        <p>These low-profile sneakers are your perfect casual wear companion. Featuring a
+          durable rubber outer sole, they’ll withstand everything the weather can offer.</p>
+      </div>
+      <div class="cart-and-price-container">
+       <div class="price-related">
+        <div class="price">
+          <h2>$125.00</h2>
+          <p>50%</p>
+        </div>
+        <div class="price-off">
+          <p>$250.00</p>
+        </div>
+       </div>
+        <div class="cart-options">
+          <!-- Quantity selector -->
+          <div class="cart-item-counter">
+            <img id="minus-icon" src="./images/icon-minus.svg" alt="minus icon">
+            <span id="quantity">1</span>
+            <img id="plus-icon" src="./images/icon-plus.svg" alt="plus icon">
+          </div>
+          <!-- ********************** -->
+          <div class="cart-btn-container" id="add-to-cart-btn">
+            <img src="./images/icon-cart-white.svg" alt="cart icon">
+            <p>Add to Cart</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script src="./script.js"></script>
+</body>
+
+</html>
