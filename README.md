@@ -14,7 +14,7 @@ This is a solution to the [E-commerce product page challenge on Frontend Mentor]
 
 ### Screenshot
 
-![ecommerce product page screenshot](https://github.com/saifion33/ecommerce-product-page/blob/main/screenshot/ecommerce-product-page.png)
+![ecommerce product page screenshot](https://github.com/saifion33/ecommerce-product-page/blob/master/screenshot/Screenshot%202022-03-28%20at%2023-56-49%20E-commerce%20product%20page.png)
 
 
 
