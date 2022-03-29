@@ -356,19 +356,22 @@ main {
     .logo-container img{
         width: 35rem;
     }
-    ul{
+    #mobile-menu{
         position: absolute;
         top: 0;
         left: 0;
         width: 50%;
         background-color: rgb(255, 255, 255);
         height: 100vh;
-        z-index: 1;
-        flex-direction: column;
-        align-items: flex-start;
+        z-index: 1;   
         padding: 6rem;
         transform: translateX(-100%);
         transition: all 0.3s linear;
+    }
+    ul{
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0;
     }
     #menu-close-icon{
         display: block;
