@@ -192,7 +192,7 @@ function cartItemRemover() {
   // If there is only only 1 item in cart and user click on delete icon then this block run
   else {
     // replace cart item by your cart is empty
-    cart.innerHTML = `<h1>Your cart is empty</h1>`;
+    cart.innerHTML = `<h3>Your cart is empty</h3>`;
     // hide item count display from corner of cart icon
     itemCountDisplay.style.display = 'none';
     // set item count to 0 means there is no item left in cart

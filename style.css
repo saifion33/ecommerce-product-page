@@ -407,7 +407,7 @@ main {
         font-weight: 700;
         padding: 5rem;
     }
-    #cart-container h1{
+    #cart-container h3{
         font-size: 7rem;
     }
     .cart-item{
